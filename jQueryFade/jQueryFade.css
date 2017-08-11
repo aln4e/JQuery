@@ -1,0 +1,42 @@
+.container {
+  border: 1px solid black;
+  padding: 1%;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  height: 100vh;
+}
+
+.dialog {
+  /*border: 1px solid black;*/
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 1%;
+  grid-area: 2 / 2 / 3 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.buttons {
+  /*border: 1px solid black;*/
+  /*background-color: rgba(255, 0, 0, 0.5);*/
+  padding: 1%;
+  grid-area: 2 / 3 / 3 / 4;
+  display: grid;
+  grid-template: 1fr 1fr/ 1fr 3fr;
+}
+
+.fadeItIn {
+  /*border: 1px solid black;*/
+  padding: 1%;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.fadeItOut {
+  /*border: 1px solid black;*/
+  padding: 1%;
+  grid-area: 2 / 1 / 3 / 2;
+}
