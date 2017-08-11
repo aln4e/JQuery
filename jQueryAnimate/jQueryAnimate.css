@@ -1,0 +1,37 @@
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.dialog {
+  grid-area: 2/2/3/3;
+  background-color: rgba(255, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increaseFont {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.changeOpacity {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.increaseWidth {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+.increaseHeight {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+}
